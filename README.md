@@ -1,1 +1,19 @@
-# redesigned-succotash
+Briefly summarize the requirements and goals of the application you developed. What user needs was this application designed to address?
+
+This application's goal is to help users sign up for their desired classes. In total, user classes cannot exceed 9 credit hours. If a user tries to sign up for more than that, an error message will pop up and inform the user that their assigned classes already go up to 9 credit hours.
+
+What did you do particularly well in developing this application?
+
+I made sure this application didn't exceed over 9 credit hours whenever a user tried to sign up for classes while already have 9 credit hours. I also made sure that the button functionality worked, as well as the dropdown list for the classes, and the confirmation messages of each class successfully being signed up for.
+
+Compare and contrast the Console and WPF application designs. What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+
+For the console application, a confirmation message that the class was added will pop up when the user inputs "y". This will let the user know that they did it correctly. The console application also shows the list of avalible classes so that the user knows the options they have. The WPF application has a dropdown menu, similar to the console application's list, but in a cleaner fashion. Rather than look through a list like the console application, the user just clicks on the dropdown menu and sees their options. Additionally, there will be a box on the bottom of the application showing what the user already signed up for, that way the user will remember what classes they already signed up for, and won't sign up for a class twice by accident. There are also message prompts that will pop up and inform the user that they successfully signed up for a class, as well as if they signed up for a selected class already, or even if the user exceeds 9 credit hours. These were added into the application to make it easy to sign up for the classes, as well as to make it as straight forward as possible.
+
+How did you approach the process of debugging and coding your application? What techniques or strategies did you use? How could you use those techniques or strategies in the future?
+
+When coding for the application was complete, I then went over my code to make sure there weren't any contingencies that a user may get into. Some examples can include a user not being able to select a class from the list of options, message boxes potentially not working, etc. To make sure everything goes right, I put myself in the shoes of a user. What would I do if I was using this application to sign up for classes? Then I went through the application as a user, and thought of every potential contingency. For future projects, one could put themselves in the shoes of their client and go through the application or project. That way, you can try to find any contingency that a user may run into, like how I did for a user signing up for classes via this application.
+
+Where did you have to be innovative to overcome a challenge in the full application development process?
+
+During development, I thought to potentially add some flair to the messages in the application. However, while I had this thought early on, I decided against it because while it would be fun to have fun messages for potentially errors and whatnot, it wouldn't be professional or appropriate in this type of application. Users would just want to sign up for their classes as quick and as easy as possible in a couple of clicks. My challenge in this process was having a time and place for flair, and it is better to have a professional flair here rather than a fun flair. Not to say that signing up for classes isn't fun, but having a professional manner is better in this case.
